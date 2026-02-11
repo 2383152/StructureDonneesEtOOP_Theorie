@@ -14,6 +14,7 @@ namespace Cas01_Constructeur
         private string prenom;
         private string departement;
 
+
         //Définition du constructeur pour initialiser les attributs de la classe
         public Etudiant(string nom_1, string prenom_1, string departement_1, int age_1)
         {

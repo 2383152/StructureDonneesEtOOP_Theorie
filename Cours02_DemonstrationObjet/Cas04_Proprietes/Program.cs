@@ -13,7 +13,6 @@
             employe01.AfficherInformation();
 
 
-
             DateTime Datenaissance2 = new DateTime(1997, 10, 20);
             Employe employe02 = new Employe(Datenaissance2);
             employe01.Nom = "Maude";
