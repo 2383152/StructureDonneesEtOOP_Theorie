@@ -110,6 +110,10 @@ void AfficherFacture(string nom, string prenom, char categorie, float pourcentag
     fichier.WriteLine(string.Format("{0,-20}:{1,20}{2}", "TOTAL", sommeTotal, "$"));
 }
 
+
+
+
+
 //Début du programme principal
 int nombreArticle;
 float sommeApresRabais, sommeTVQ, sommeTPS, pourcentage, sommeAvantRabais, sommeTotal;
