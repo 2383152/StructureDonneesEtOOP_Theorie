@@ -1,6 +1,6 @@
 ﻿namespace Cas01_Constructeur
 {
-    internal class Program
+    internal class Program //Retranscrit 
     {
         static void Main(string[] args)
         {

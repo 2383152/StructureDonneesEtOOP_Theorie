@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Cas01_Constructeur
+namespace Cas01_Constructeur //Retranscrit
 {
     internal class Etudiant
     {
