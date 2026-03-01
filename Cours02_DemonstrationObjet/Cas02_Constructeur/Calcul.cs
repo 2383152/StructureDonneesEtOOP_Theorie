@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Cas02_Constructeur
 {
-    internal class Calcul
+    internal class Calcul //Retranscrit dans notes perso
     {
         int x, y, z;
 

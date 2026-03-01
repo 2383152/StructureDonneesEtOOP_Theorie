@@ -2,7 +2,7 @@
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main(string[] args) //Retrancrit en note personel
         {
             Calcul calcul1 = new Calcul(); //Appel du constructeur par défaut
 
