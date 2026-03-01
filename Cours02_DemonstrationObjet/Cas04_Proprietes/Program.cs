@@ -1,6 +1,6 @@
 ﻿namespace Cas04_Proprietes
 {
-    internal class Program
+    internal class Program //Retranscrit
     {
         static void Main(string[] args)
         {

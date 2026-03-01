@@ -1,10 +1,10 @@
 ﻿namespace Cas03_Accesseur
 {
-    internal class Program
+    internal class Program //Retranscrit
     {
         static void Main(string[] args)
         {
-            Personne personne_01 = new Personne();//fait appek au constructeur par defaut
+            Personne personne_01 = new Personne();//fait appel au constructeur par defaut
 
             //Affection des données
             personne_01.SetNom("LeBlanc");
