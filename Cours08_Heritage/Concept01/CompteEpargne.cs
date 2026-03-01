@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Concept01
 {
-    internal class CompteEpargne:CompteBancaire
+    internal class CompteEpargne:CompteBancaire //retranscrit
     {
         public double TauxEpargne { get; set; }
 
