@@ -1,4 +1,4 @@
-﻿namespace Cas02_Constructeur
+﻿namespace Cas02_SurchargeMethode
 {
     internal class Program
     {

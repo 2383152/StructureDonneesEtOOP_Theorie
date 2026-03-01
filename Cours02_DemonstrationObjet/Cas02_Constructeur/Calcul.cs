@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Cas02_Constructeur
+namespace Cas02_SurchargeMethode
 {
     internal class Calcul //Retranscrit dans notes perso
     {
