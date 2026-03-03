@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Concept01
 {
-    internal class CompteBancaire //retranscrit
+    internal class CompteBancaire 
     {
 
         public string Nom { get; set; }

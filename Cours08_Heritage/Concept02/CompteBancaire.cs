@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Concept02 //retranscrit
+namespace Concept02 
 {
     internal class CompteBancaire
     {

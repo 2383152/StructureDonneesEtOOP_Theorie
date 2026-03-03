@@ -1,6 +1,6 @@
 ﻿namespace Concept02 //avec constructeur paramétrique (défini)
 {
-    internal class Program //retranscrit
+    internal class Program 
     {
         static void Main(string[] args)
         {
