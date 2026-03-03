@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Cas02_SurchargeMethodes
 {
-    internal class Calcul //Retranscrit dans notes perso
+    internal class Calcul
     {
         int x, y, z;
 

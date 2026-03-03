@@ -1,6 +1,6 @@
 ﻿namespace Cas03_Accesseur
 {
-    internal class Program //Retranscrit
+    internal class Program 
     {
         static void Main(string[] args)
         {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Cas03_Accesseur //Retranscrit
+namespace Cas03_Accesseur 
 {
     internal class Personne
     {

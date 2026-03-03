@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Cas04_Proprietes //Retranscrit
+namespace Cas04_Proprietes 
 {
     internal class Employe
     {
