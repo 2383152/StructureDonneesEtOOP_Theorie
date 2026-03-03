@@ -6,7 +6,7 @@
         {
             DateTime Datenaissance1 = new DateTime(1980, 10, 20);
             Employe employe01 = new Employe(Datenaissance1);
-            employe01.Nom = "Laure";
+            employe01.Nom = "Laurence";
             employe01.Prenom = "Leblanc";
 
             //afficher les informations
