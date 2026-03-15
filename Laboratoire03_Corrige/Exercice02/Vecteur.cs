@@ -52,7 +52,7 @@ namespace Exercice02
         //Méthode pour sauvegarder le vecteur dans le fichier
         public void SauvegardeVecteur()
         {
-            using (StreamWriter fichierSorti = new StreamWriter("Resultat.csv"))
+            using (StreamWriter fichierSorti = new StreamWriter("Resultat.csv")) //important pour utiliser et fermer le fichier après utilisation
             {
                 for(int i = 0;i < Valeurs.Length;i++)
                 {
