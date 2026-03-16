@@ -39,6 +39,8 @@ namespace Exercice01
   
             string ligne; //déclare une chaine de caractères
 
+            fichier.ReadLine(); //saute la première ligne du fichier
+
             while ((ligne = fichier.ReadLine()) != null)//extraction d'une ligne et vérifie si elle est vide
             {
                 string[] donnees = ligne.Split(';'); //coupe la ligne au moment ou il y a le ; pour créer des données séparé
