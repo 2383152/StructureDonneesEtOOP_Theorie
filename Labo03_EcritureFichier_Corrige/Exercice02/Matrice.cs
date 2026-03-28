@@ -12,6 +12,7 @@ namespace Exercice02
         public double[,] valeurs { get; set; } //Déclaration d'un tableau a deux dimensions
 
 
+
         //Constructeur
         public Matrice(string nomFichier)
         {
