@@ -13,7 +13,6 @@ namespace Exercice02
 
 
         //Constructeur
-
         public Triangle(double largeur, double hauteur)
         {
             this.Base = largeur;

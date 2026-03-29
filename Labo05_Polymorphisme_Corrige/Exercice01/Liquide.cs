@@ -19,7 +19,7 @@ namespace Exercice01
             if(temperature < 0)//Solidification
             {
                 Console.WriteLine("Le liquide gèle et devient solide");
-                return new Solide();
+                return new Solide(); //vue que un solide c,est une dérivation de etatMatiere, ca fonctionne
             }
             else if(temperature >= 100) //Vaporisarion
             {
