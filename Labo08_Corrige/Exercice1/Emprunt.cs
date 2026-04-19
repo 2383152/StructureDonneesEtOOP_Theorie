@@ -11,7 +11,7 @@ namespace Exercice1
         public int Id { get; }
         public DateTime DateDebut { get; }
         public DateTime DateRetour { get; }
-        public DateTime DateRetourEffective { get; set;  }
+        public DateTime DateRetourEffective { get; set; } // pour modifier (set)
 
         //attributs provenant de la relation entre Emprunt et Abonne et Emprunt et Livre
         public Abonnee AbonneEmprunteur { get; }
@@ -32,7 +32,7 @@ namespace Exercice1
                 LivreEmprunter = livre;
                 DateDebut = DateTime.Now;
                 DateRetour = DateDebut.AddDays(30);
-                livre.EstDisponible = false
+                livre.EstDisponible = false;
             }
         }
     }

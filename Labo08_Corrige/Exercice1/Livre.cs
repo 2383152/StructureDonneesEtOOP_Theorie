@@ -10,10 +10,19 @@ namespace Exercice1
     {
         public int Code { get; }
         public string Titre { get; }
-        public string Àuteur { get; }
+        public string Auteur { get; }
         public string Genre { get; }
 
-        public bool EstDisponible
+        public bool EstDisponible { get; set; } = true;
+
+        // Constructeur
+        public Livre(int code, string Titre, string Auteur, string Genre)
+        {
+            this.Code = code;
+            this.Titre = Titre;
+            this.Auteur = Auteur;
+            this.Genre = Genre;
+        }
 
     }
 }
