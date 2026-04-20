@@ -8,6 +8,6 @@ namespace Labo7
 {
     internal class Chat : Animal
     {
-        public override void PousserCri() => Console.WriteLine("Miaou");
+        public override void PousserCri() => Console.WriteLine("Miaou"); //facons encore plus rapide d'écrir une méthode
     }
 }
