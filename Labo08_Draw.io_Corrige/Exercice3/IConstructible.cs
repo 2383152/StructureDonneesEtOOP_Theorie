@@ -8,7 +8,7 @@ namespace Exercice3
 {
     internal interface IConstructible
     {
-        void Construir();
+        void Construire();
 
     }
 }

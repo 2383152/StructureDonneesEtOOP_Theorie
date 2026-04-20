@@ -8,7 +8,7 @@
             Livre livre1 = new Livre(101, "A cool book", "by an author", "Book");
 
             //emprunt d'un live
-            if(abonnee1.PeutEmpreuter())
+            if(abonnee1.PeutEmprunter())
             {
                 Emprunt emprunt1 = new Emprunt(1, abonnee1, livre1);
                 abonnee1.AjouterEmprunt(emprunt1);
