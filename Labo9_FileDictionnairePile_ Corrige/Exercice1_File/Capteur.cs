@@ -29,5 +29,11 @@ namespace Exercice1_File
         {
             return $"{Nom} (Id: {ID}) - Derniére valeur: {ValeurActuelle} {UniteMesure}";
         }
+
+        //Méthode pour convertir un capteur en format de fichier, pour l'enregistrement
+        public string ToFileString()
+        {
+            return $"{ID}; {Nom}; {UniteMesure}; {ValeurActuelle}";
+        }
     }
 }

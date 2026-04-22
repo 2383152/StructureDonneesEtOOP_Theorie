@@ -45,5 +45,57 @@ namespace Exercice1_File
                 }
             }
         }
+
+        //ajouter un capteur a la file
+        public void AjouterCapteur(Capteur capteur)
+        {
+            fileCapteurs.Enqueue(capteur);
+
+            capteur.LireValeur();
+
+            //Sauvegarde dans le fichier
+            File.AppendAllText(fichierCapteurs, capteur.ToFileString + Environment.NewLine);
+
+        }
+
+        //lire et enregistrer une mesure
+        public void LireEtEnregistrerMesure()
+        {
+            if(fileCapteurs.Count == 0)
+            {
+                Console.WriteLine("Aucun capteur a traiter");
+
+                return;
+            }
+
+            //Traiter le capteur le plus ancien (celui arriver en premier, avant l'autre) en premier
+            Capteur capteur = fileCapteurs.Dequeue(); //on retire le plus ancien (premier arrivé premier servi)
+
+            //Enregistre dans un fichier
+            string ligne = $"{DateTime.Now}: {capteur.ToFileString()}";
+
+            File.AppendAllText(fichierCapteurs, ligne + Environment.NewLine);
+
+            //Ajoute la "ligne" au fichier "fichierCaptuer", puis fait un saut de ligne grâce a "Environment.NewLine". Si le fichier n'existe pas, il le crée
+
+            Console.WriteLine($"Traitement sur la file avec Succes. - {capteur}");
+        }
+
+        //Afficher la file des capteurs
+        public void AfficherCapteur()
+        {
+            if (fileCapteurs.Count == 0)
+            {
+                Console.WriteLine("Aucun capteur enregistré!");
+                return;
+            }
+
+            Console.WriteLine("Capteurs en attente de traitement dans la file");
+
+            foreach(var capteur in fileCapteurs)
+            {
+                Console.WriteLine(capteur); //Appel la méthode ToString(). Ressemble a capteur.ToString()
+            }
+        }
     }
 }
