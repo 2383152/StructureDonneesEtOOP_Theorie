@@ -1,6 +1,4 @@
-﻿using System.Net.Quic;
-
-namespace Cas01_TryCatch
+﻿namespace Cas01_TryCatch
 {
     internal class Program
     {
@@ -17,7 +15,7 @@ namespace Cas01_TryCatch
 
                 Console.WriteLine(resultat);
             }
-            catch(DivideByZeroException execption)
+            catch (DivideByZeroException execption)
             {
                 Console.WriteLine(execption.Message);
             }
@@ -31,7 +29,7 @@ namespace Cas01_TryCatch
 
                 Console.WriteLine("nombre entré: " + nombre);
             }
-            catch(FormatException exception)
+            catch (FormatException exception)
             {
                 Console.WriteLine(exception.Message);
             }
@@ -44,11 +42,10 @@ namespace Cas01_TryCatch
                 string contenu = reader.ReadToEnd(); //reader.ReadToEnd(); = lecture jusqu'à la fin du fichier et retourne le contenu sous forme de chaine de caractère
                 Console.WriteLine(contenu);
             }
-            catch(FileNotFoundException exception)
+            catch (FileNotFoundException exception)
             {
                 Console.WriteLine(exception.Message);
             }
-            
         }
     }
 }
