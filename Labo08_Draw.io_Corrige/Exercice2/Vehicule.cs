@@ -15,6 +15,7 @@ namespace Exercice2
         //Attribut provenant de la relation d'association
         public List<Passenger> Passager { get; set; }
 
+
         //Constructeur de la classe
         public Vehicule()
         {
